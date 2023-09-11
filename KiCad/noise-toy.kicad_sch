@@ -5,10 +5,11 @@
   (paper "A4")
 
   (title_block
-    (title "pedalpi.sch")
-    (date "2017-01-01")
-    (rev "rev. A")
-    (company "ElectroSmash.com")
+    (title "Noise-Toy")
+    (date "2023-09-11")
+    (rev "Rev 1")
+    (company "Noise-Toy")
+    (comment 1 "CC-BY ElectroSmash.com")
   )
 
   (lib_symbols
@@ -3079,8 +3080,8 @@
     (pin "1" (uuid 2cf4d5dd-d0d2-443c-a0e0-09686ca0e127))
     (pin "2" (uuid d6792da7-86c7-4849-a1c7-60eac3c6e720))
     (pin "3" (uuid f9dba18d-9748-45f3-b812-eb53ac10f5e5))
-    (pin "4" (uuid 456c9cb1-e9ab-4393-bc6b-c13b270b9465))
-    (pin "4" (uuid 456c9cb1-e9ab-4393-bc6b-c13b270b9465))
+    (pin "4" (uuid 456c9cb1-e9ab-4393-bc6b-c13b270b9466))
+    (pin "4" (uuid 456c9cb1-e9ab-4393-bc6b-c13b270b9466))
     (pin "5" (uuid 78823821-339a-4fe3-adaf-31426169edc8))
     (pin "6" (uuid 1acccff2-ca54-41ca-a1fe-1787d79ba720))
     (pin "7" (uuid c7b19269-1e92-44a9-aa3f-1257a26d8b62))
