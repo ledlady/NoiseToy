@@ -1,0 +1,18 @@
+for serial over usb:
+in %BOOT%/config.txt add dtoverlay=dwc2
+in %BOOT%/cmdline.txt add modules-load=dwc2,g_serial
+boot card atleast once
+in %ROOT%/etc/systemd/system/getty.target.wants exec ln -s /lib/systemd/system/getty@.service getty@ttyGS0.service
+
+connect to serial:
+screen /dev/ttyACM0 115200
+
+install:
+move files to home folder
+cd bc,2835-1.50 exec ./configure
+make 
+sudo make install
+sudo raspi-config > interfacing options > SPI enable
+
+compile file with:
+gcc file.c -l bcm2835 -o file
