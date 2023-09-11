@@ -63,7 +63,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerber/")
+      (outputdirectory "../Production/GerberFiles/")
     )
   )
 
@@ -4756,7 +4756,7 @@
     (stroke (width 0.25) (type solid)) (layer "Edge.Cuts") (tstamp 263819d8-e044-4c5f-baa7-30b3d3829849))
   (gr_line (start 93.98 32.004) (end 176.276 32.004)
     (stroke (width 0.25) (type solid)) (layer "Edge.Cuts") (tstamp f3b0c708-87c9-4593-90c0-0abdb8805c24))
-  (gr_text "Ce sera comme si je t'avais donné,\nau lieu d'étoiles, des tas de petits grelots\nqui savent rire... \n\nNoise-Toy Rev.0\nLedlady 2023" (at 125.476 150.495) (layer "F.SilkS") (tstamp 6c2fe54b-4efe-4316-9f52-4e4293c67831)
+  (gr_text "Ce sera comme si je t'avais donné,\nau lieu d'étoiles, des tas de petits grelots\nqui savent rire... \n\nNoise-Toy Rev.0\nCC-BY electrosmash.com\nLedlady 2023" (at 125.476 150.495) (layer "F.SilkS") (tstamp 6c2fe54b-4efe-4316-9f52-4e4293c67831)
     (effects (font (size 1 1) (thickness 0.2)) (justify left))
   )
 
