@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "noise-toy")(type "KiCad")(uri "${KIPRJMOD}/noise-toy.pretty")(options "")(descr ""))
+)
