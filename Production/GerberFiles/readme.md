@@ -1,0 +1,2 @@
+# Gerber Files
+The files in this folder are the gerber files needed for production. They were exported using settings for jlcpcb. For more information see: https://jlcpcb.com/help/article/16-How-to-generate-Gerber-and-Drill-files-in-KiCad-6
